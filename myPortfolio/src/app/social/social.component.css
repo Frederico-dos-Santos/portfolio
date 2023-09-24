@@ -1,0 +1,57 @@
+.social-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 200px;
+    padding-top: 100px;
+}
+
+.social-item {
+    margin: 20px;
+}
+
+.itens {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-icon {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Jolly Lodger';
+    font-size: 48px;
+    color: #281952;
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Jost-Bold';
+    color: #281952;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 200px;
+}
