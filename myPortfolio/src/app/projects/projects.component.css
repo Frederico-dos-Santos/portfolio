@@ -1,6 +1,13 @@
-.container {
+.card-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
   padding: 20px;
@@ -62,7 +69,26 @@ h1 {
 
 .section-header {
   text-align: center;
-  width: 100%; 
-  margin-bottom: 20px; 
+  width: 100%;
+  margin-bottom: 20px;
   padding-top: 100px;
+}
+
+@media (max-width: 840px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+  }
+
+  .card {
+    margin-right: 10px;
+    max-width: 100%;
+    margin: 10px; 
+  }
+
+  .card-list {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }

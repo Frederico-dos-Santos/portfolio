@@ -40,3 +40,29 @@ h1 {
     align-self: baseline;
 }
 
+
+@media (max-width: 840px) {
+    .container {
+      padding-top: 0;
+    }
+
+    .content {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .content p{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .content h2{
+        font-size: 26px;
+    }
+
+    .card1 {
+        margin-bottom: 50px;
+    }
+  
+  }
+

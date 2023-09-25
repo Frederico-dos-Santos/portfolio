@@ -17,3 +17,13 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+@media (max-width: 840px) {
+    a {
+      display: none;
+    }
+
+    .header {
+        justify-content: center;
+    }
+  }
