@@ -25,5 +25,10 @@ a {
 
     .header {
         justify-content: center;
+        padding: 0;
+    }
+
+    .title {
+        font-size: 54px;
     }
   }
