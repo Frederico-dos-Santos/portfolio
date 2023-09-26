@@ -153,6 +153,7 @@
   .title{
     display: flex;
     flex-direction: row;
+    font-size: 36px;
   }
 
   .ofrederico {
