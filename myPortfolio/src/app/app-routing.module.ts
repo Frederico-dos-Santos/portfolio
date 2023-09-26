@@ -4,9 +4,7 @@ import { PrincipalComponent } from './principal/principal.component';
 import { ExperienceComponent } from './experience/experience.component';
 
 const routes: Routes = [
-  { path: 'app-principal', component: PrincipalComponent },
-  { path: 'app-experience', component: ExperienceComponent },
-  { path: '', redirectTo: 'app-principal', pathMatch: 'full' },
+
 ];
 
 
