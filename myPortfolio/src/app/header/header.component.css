@@ -26,14 +26,9 @@ a {
     .header {
         justify-content: center;
         padding: 0;
-        height: 20vh;
     }
 
     .title {
         font-size: 54px;
-    }
-    
-    .scroller {
-        min-height: 60vh; 
     }
   }

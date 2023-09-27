@@ -2,24 +2,32 @@
   integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
   <body>
-    <div class="bg">
-      <div class="header">
-        <app-header></app-header>
+    <div class="container-fluid" class="bg">
+      <div class="row">
+          <div class="col">
+              <div class="header">
+                  <app-header></app-header>
+              </div>
+          </div>
       </div>
-      <article class="scroller">
-        <section>
-          <app-principal></app-principal>
-        </section>
-        <section>
-          <app-experience></app-experience>
-        </section>
-        <section>
-          <app-projects></app-projects>
-        </section>
-        <section>
-          <app-social></app-social>
-        </section>
-      </article>
+      <div class="row">
+          <div class="col">
+              <article class="scroller">
+                  <section>
+                      <app-principal></app-principal>
+                  </section>
+                  <section>
+                      <app-experience></app-experience>
+                  </section>
+                  <section>
+                      <app-projects></app-projects>
+                  </section>
+                  <section>
+                      <app-social></app-social>
+                  </section>
+              </article>
+          </div>
+      </div>
     <!--<div class="scroll-arrows">
       <div class="arrow"></div>
       <div class="arrow"></div>
