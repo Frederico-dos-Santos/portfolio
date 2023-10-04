@@ -54,6 +54,7 @@ h2 {
 .footer {
     text-align: center;
     margin-top: 200px;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 840px) {
