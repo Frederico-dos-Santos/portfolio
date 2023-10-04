@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-    margin: 0;
+    margin: 0 0 50px;
     font-size: 24px;
     font-family: 'Jost-Bold';
     color: #281952;
@@ -54,7 +54,6 @@ h2 {
 .footer {
     text-align: center;
     margin-top: 200px;
-    margin-bottom: 50px;
 }
 
 @media (max-width: 840px) {
